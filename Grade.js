@@ -20,4 +20,6 @@ if (score>=80 && score<=100) {
     console.log('F')
 } else {
     console.log('Error')
-}-1
+}
+
+// &&,||, !
