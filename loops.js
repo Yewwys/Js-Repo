@@ -77,9 +77,6 @@
 
 
 // array
-let ages = [30,40,50]
-console.log(ages)
-
 
 // 1.แทนที่
 ages = [45,20]
@@ -100,3 +97,47 @@ if (ages.includes('Yew')) {
 let num = ['yew','test','logic']
 num.push('ff')
 console.log(num)
+
+
+console.log(num.length)
+
+
+for (let i=0; i<num.length;i++) {
+    console.log(num[i])
+}
+
+let n = [10,20,30.44]
+for (i=0;i<n.length;i++) {
+    console.log(n[i])
+}
+
+// object
+
+let student = {
+    age:20,
+    name:'Josh',
+    grade:'A'
+}
+console.log('Overall:', student.name)
+
+let students = [{
+    age:20,
+    name:'Josh',
+    grade:'A'
+}, {
+    age:25,
+    name:'Knight',
+    grade:'F'
+}]
+students.push({
+    age:23,
+    name:'Diago',
+    grade:'B'
+})
+
+
+for (let i=0;i<students.length;i++) {
+    console.log('All students',students[i].name)
+    console.log('All students',students[i].age)
+    console.log('All students',students[i].grade)
+}
